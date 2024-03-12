@@ -1,0 +1,5 @@
+print('{:=^30}'.format(' DESAFIO 012 '))
+preco = float(input('Preço do produto: '))
+desconto = preco * ( 1 - 0.05 )
+print('Preço com desconto de 5% é R${:.2f}'.format(desconto))
+print('=' * 30)
